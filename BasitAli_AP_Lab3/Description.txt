@@ -1,0 +1,20 @@
+Introduction:
+
+Client sends server a user and his notes.
+The server records them and saves it.
+Server moreover, offers client to search for any existing username and his notes.
+
+Working:
+The server starts listening to a port number (<65536), in my case it is (90081).
+The Client requests the server for a connection and the server will accept it.
+For a new record, the client asks for username and notes and then sends it server.
+For retrieval case, the client asks for username and inreturn provides all entries against it.
+
+How to Run:
+First, Run the server.
+Then, Run the client and follow the menu.
+At the end, First end the server then client.
+  
+GitHub:
+
+
